@@ -8,7 +8,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features = "src/test/resources/features/", 
-		plugin = {"pretty","html:target/cucumber", "json:target/json/cucumber.json"},
+		plugin = { "pretty","html:target/cucumber", "json:target/json/cucumber.json"},
 		dryRun = false
 		)
 
